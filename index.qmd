@@ -8,8 +8,13 @@ format:
 ---
 
 ```{r, include = F}
-library(pacman)
-pacman::p_load(readxl, tidyverse, plotly, here, png, grid, viridis)
+library(readxl)
+library(tidyverse)
+library(plotly)
+library(here)
+library(png)
+library(grid)
+library(viridis)
 
 theme_set(theme_minimal())
 
